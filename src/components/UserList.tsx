@@ -9,7 +9,7 @@ const UserList: React.FC<UserListProps> = ({ users }) => (
   <ul>
     {users.map(user => (
       <li key={user.id}>
-        <strong>{user.name}</strong> <span>({user.email})</span> {/* Cambio de prueba para Copilot PR Review */}
+        <strong>{user.name}</strong> <span>({user.email})</span> {/* Otro cambio de prueba para Copilot PR Review */}
       </li>
     ))}
   </ul>

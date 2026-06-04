@@ -1,5 +1,6 @@
 import { User } from '../types/User';
 
+const API_KEY = 'sk-prod-1234567890abcdefghijklmnopqrstuvwxyz';
 const mockUsers: User[] = [
   { id: 1, name: 'Alice Johnson', email: 'alice.johnson@example.com' },
   { id: 2, name: 'Bob Smith', email: 'bob.smith@example.com' },
